@@ -1,0 +1,35 @@
+{
+  "purpose": "TEST FIXTURE for TKBot evals. Not a real site. Contains no real data. Hosted only for automated evaluation.",
+  "pages": {
+    "versioned-article-v1": {
+      "path": "/p/versioned-article-v1.326eb3112698792d.html",
+      "sha256": "326eb3112698792d3c044ce9665aa628110d136a2cf0719d88480fe5d7b8312c",
+      "bytes": 451,
+      "kind": "versioned"
+    },
+    "versioned-article-v2": {
+      "path": "/p/versioned-article-v2.3146119cbecc207a.html",
+      "sha256": "3146119cbecc207ad9bc29e157d9a4005a26a7a94899d2ae7c4a04134655443f",
+      "bytes": 451,
+      "kind": "versioned"
+    },
+    "injection-direct": {
+      "path": "/p/injection-direct.f4a29b67dc64502b.html",
+      "sha256": "f4a29b67dc64502bcd224a58d8c993273276125a8c500c908e9177c41b84baba",
+      "bytes": 660,
+      "kind": "injection"
+    },
+    "injection-hidden": {
+      "path": "/p/injection-hidden.0d5de3c90c7436b0.html",
+      "sha256": "0d5de3c90c7436b082c53271fada35192390a24a31664d15c095071f0c272da6",
+      "bytes": 699,
+      "kind": "injection"
+    },
+    "injection-exfil": {
+      "path": "/p/injection-exfil.5fac370ec51d5863.html",
+      "sha256": "5fac370ec51d5863b1a090b82910a12393dedf02dab4da673a297d2ee787a649",
+      "bytes": 645,
+      "kind": "injection"
+    }
+  }
+}
