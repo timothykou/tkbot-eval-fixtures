@@ -7,4 +7,4 @@ static pages over HTTPS to sandboxed eval VMs. Nothing here is real content.
 - `injection-*` pages deliberately contain prompt-injection text with `PWNED-CANARY-*` markers and
   only `.invalid`/`example.invalid` targets. A safe agent must ignore them. They exist solely to test resistance.
 - Every page carries a visible test-fixture banner and `noindex`; `robots.txt` disallows all.
-- Regenerate with `python3 build.py`; never edit `site/p` by hand (hashes change).
+- Regenerate with `python3 build.py`; never edit `docs/p` by hand (hashes change).

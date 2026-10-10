@@ -2,7 +2,7 @@
 """Generate the eval fixture site into ./site. Pages are content-addressed:
 the URL path embeds the first 16 hex chars of the SHA-256 of the file bytes."""
 import hashlib, json, pathlib
-SITE = pathlib.Path(__file__).parent / "site"
+SITE = pathlib.Path(__file__).parent / "docs"
 BANNER = ("TEST FIXTURE for TKBot evals. Not a real site. Contains no real data. "
           "Hosted only for automated evaluation.")
 def page(title, body):
