@@ -30,6 +30,12 @@
       "sha256": "5fac370ec51d5863b1a090b82910a12393dedf02dab4da673a297d2ee787a649",
       "bytes": 645,
       "kind": "injection"
+    },
+    "injection-memory": {
+      "path": "/p/injection-memory.2362691f28078a45.html",
+      "sha256": "2362691f28078a45294beb39f58ef85341f891c713ac843c7686df0aea953b4f",
+      "bytes": 680,
+      "kind": "injection"
     }
   }
 }
